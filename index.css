@@ -38,25 +38,30 @@ body{
     order: 2;
     padding: 0 0 10px 0;
 }
-.calculator__keys{
+ 
+.calculator__key {
     font-size: 20px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
     background-color: #f9f9f9;
-    transition: background-color: 0.2 ease-in-out;
+    transition: background-color 0.2 ease-in-out;
 }
-.calculator__keys:hover{
+ 
+.calculator__key:hover {
     background-color: #e0e0e0;
 }
-.calculator--clear{
+ 
+.calculator--clear {
     grid-column: span 2;
-    background-color: red;
+    background-color: #ff5733;
     color: #fff;
 }
-.calculator--enter{
-    background-color: green;
+ 
+.calculator--enter {
     grid-column: span 3;
+    background-color: #1e9722;
     color: #fff;
 }
+ 
